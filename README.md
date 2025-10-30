@@ -1,6 +1,7 @@
 # RUBlocker84
 
-![RUBlocker84 Logo](./banner.png)  
+<img src="./banner.png" alt="RUBlocker84" width="300"/>
+
 
 
 ---
