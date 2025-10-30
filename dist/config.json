@@ -1,0 +1,64 @@
+{
+  "active_groups": [
+    "vk_max_yandex",
+    "metrika_ru"
+  ],
+  "groups": {
+    "vk_max_yandex": {
+      "on": false,
+      "description": "vk, MAX, yandex, mail.ru services",
+      "hosts": [
+        "ya.ru",
+        "vk.com",
+        "vk.ru",
+        "max.ru",
+        "dzen.ru",
+        "yandex.ru",
+        "mail.ru"
+      ],
+      "kernel": true
+    },
+    "metrika_ru": {
+      "on": false,
+      "description": "Metrica RU and trackers RU",
+      "hosts": [
+        "mc.yandex.ru",
+        "mc.webvisor.org",
+        "top.mail.ru",
+        "ads.vk.com",
+        "analytics.vk.com",
+        "tracker-api.vk-analytics.ru",
+        "sdk-api.apptracer.ru",
+        "mod.calltouch.ru",
+        "googletagmanager.com",
+        "cloud.roistat.com",
+        "roistat.com",
+        "cc.calltracking.ru",
+        "top-fwz1.mail.ru",
+        "yastatic.net",
+        "static.click.ru"
+      ],
+      "kernel": true
+    },
+    "ip_crawlers": {
+      "on": false,
+      "description": "IP crawlers",
+      "hosts": [
+        "api.ipify.org",
+        "checkip.amazonaws.com",
+        "ipv4-internet.yandex.net",
+        "ipv6-internet.yandex.net",
+        "ifconfig.me"
+      ],
+      "kernel": true
+    },
+    "all_domains_ru": {
+      "on": false,
+      "description": "All domain .ru",
+      "hosts": [
+        ".ru",
+        ".рф"
+      ]
+    }
+  }
+}
