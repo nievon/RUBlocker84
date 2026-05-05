@@ -5,7 +5,7 @@
   ],
   "groups": {
     "vk_max_yandex": {
-      "on": false,
+      "on": true,
       "description": "vk, MAX, yandex, mail.ru services",
       "hosts": [
         "ya.ru",
@@ -16,13 +16,14 @@
         "yandex.kz",
         "dzen.ru",
         "yandex.ru",
+        "yandex.net",
         "yandex.com",
         "mail.ru"
       ],
       "kernel": true
     },
     "metrika_ru": {
-      "on": false,
+      "on": true,
       "description": "Metrica RU and trackers RU",
       "hosts": [
         "mc.yandex.ru",
@@ -96,12 +97,11 @@
         "xray.mail.ru",
         "ad.mail.ru",
         "bar.love.mail.ru"
-
       ],
       "kernel": true
     },
     "ip_crawlers": {
-      "on": false,
+      "on": true,
       "description": "IP crawlers",
       "hosts": [
         "api.ipify.org",
@@ -117,7 +117,7 @@
       "description": "All domain .ru",
       "hosts": [
         ".ru",
-        ".рф"
+        ".\u0440\u0444"
       ]
     }
   }
