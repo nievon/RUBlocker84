@@ -17,7 +17,8 @@
         "dzen.ru",
         "yandex.ru",
         "yandex.com",
-        "mail.ru"
+        "mail.ru",
+        "api.oneme.ru"
       ],
       "kernel": true
     },
@@ -27,6 +28,7 @@
       "hosts": [
         "mc.yandex.ru",
         "mc.yandex.com",
+        "api.oneme.ru",
         "metrica.yandex.ru",
         "metrica.yandex.com",
         "yabs.yandex.ru",

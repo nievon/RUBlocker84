@@ -1,0 +1,19 @@
+# Build artifacts
+dist/
+build/
+
+# Claude Code settings
+.claude/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
