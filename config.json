@@ -1,24 +1,31 @@
 {
-  "active_groups": [
-    "vk_max_yandex",
-    "metrika_ru"
-  ],
   "groups": {
-    "vk_max_yandex": {
+    "metrika_ru_lite": {
       "on": false,
-      "description": "vk, MAX, yandex, mail.ru services",
+      "description": "Metrica RU Lite",
       "hosts": [
-        "ya.ru",
-        "vk.com",
-        "vk.ru",
-        "max.ru",
-        "yandex.by",
-        "yandex.kz",
-        "dzen.ru",
-        "yandex.ru",
-        "yandex.com",
-        "mail.ru",
-        "api.oneme.ru"
+        "mc.yandex.ru",
+        "mc.yandex.com",
+        "metrica.yandex.ru",
+        "metrica.yandex.com",
+        "mc.webvisor.org",
+        "ads.vk.com",
+        "analytics.vk.com",
+        "tracker-api.vk-analytics.ru",
+        "top-fwz1.mail.ru",
+        "mod.calltouch.ru",
+        "googletagmanager.com",
+        "adfox.yandex.ru",
+        "adfox.yandex.com",
+        "adfstat.yandex.ru",
+        "adfstat.yandex.com",
+        "ad.mail.ru",
+        "bar.love.mail.ru",
+        "api.ipify.org",
+        "checkip.amazonaws.com",
+        "ipv4-internet.yandex.net",
+        "ipv6-internet.yandex.net",
+        "ifconfig.me"
       ],
       "kernel": true
     },
@@ -98,7 +105,53 @@
         "xray.mail.ru",
         "ad.mail.ru",
         "bar.love.mail.ru"
-
+      ],
+      "kernel": true
+    },
+    "vk_max_yandex": {
+      "on": false,
+      "description": "vk, MAX, yandex, mail.ru services",
+      "hosts": [
+        "ya.ru",
+        "yandex.ru",
+        "m.yandex.ru",
+        "maps.yandex.ru",
+        "mail.yandex.ru",
+        "music.yandex.ru",
+        "passport.yandex.ru",
+        "taxi.yandex.ru",
+        "yandex.net",
+        "yandex.st",
+        "yandex.com",
+        "yandex.by",
+        "yandex.kz",
+        "yandex.uz",
+        "yandex.com.tr",
+        "dzen.ru",
+        "mc.yandex.ru",
+        "strm.yandex.ru",
+        "suggest.yandex.ru",
+        "vk.com",
+        "m.vk.com",
+        "vk.ru",
+        "m.vk.ru",
+        "userapi.com",
+        "vk-cdn.net",
+        "vkme.me",
+        "vk.me",
+        "max.com",
+        "max.ru",
+        "mail.ru",
+        "m.mail.ru",
+        "e.mail.ru",
+        "mradx.net",
+        "imgsmail.ru",
+        "ok.ru",
+        "m.ok.ru",
+        "my.games",
+        "api.oneme.ru",
+        "target.my.com",
+        "top-fwz1.mail.ru"
       ],
       "kernel": true
     },
@@ -113,14 +166,6 @@
         "ifconfig.me"
       ],
       "kernel": true
-    },
-    "all_domains_ru": {
-      "on": false,
-      "description": "All domain .ru",
-      "hosts": [
-        ".ru",
-        ".рф"
-      ]
     }
   }
 }
